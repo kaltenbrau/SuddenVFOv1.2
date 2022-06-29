@@ -2,7 +2,7 @@
 Amendments to the GQRP Club Sudden VFO to allow multiple band switching and relay activation for band filters.
 
 This amended code takes the GQRP Club Sudden VFO kit and the ocde written by Kevin Wheatley, and modifies it to enable a true multi-band HF VFO for 160-10m
-including all WARC bands and 60m. Other cosemtic improvements (IMHO!) are also made.
+including all WARC bands and 60m. Other cosmetic improvements (IMHO!) are also made.
 
 A full list of changes is below:
 
