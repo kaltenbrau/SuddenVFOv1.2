@@ -4,6 +4,8 @@ Amendments to the GQRP Club Sudden VFO to allow multiple band switching and rela
 This amended code takes the GQRP Club Sudden VFO kit and the ocde written by Kevin Wheatley, and modifies it to enable a true multi-band HF VFO for 160-10m
 including all WARC bands and 60m. Other cosmetic improvements (IMHO!) are also made.
 
+Two CAD file drawings (pdf and odg format) are attached which give the locations and dimensions of the PCB front components, to aid in cutting a fascia for the PCB to sit behind, for a more professional look. If you are careful you can use the ruler in Word or similar and size the drawing to be a 1:1 match to the outer dimensions, then print it and stick it to your fascia as your cutting guide.
+
 A full list of changes is below:
 
     - Multiple band selection is now available. The VFO tuning steps now have two functions. A short press 
