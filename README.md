@@ -1,4 +1,4 @@
-# SuddenVFOv1.2
+# SuddenVFO - now at v1.3
 Amendments to the GQRP Club Sudden VFO to allow multiple band switching and relay activation for band filters.
 
 This amended code takes the GQRP Club Sudden VFO kit and the ocde written by Kevin Wheatley, and modifies it to enable a true multi-band HF VFO for 160-10m
@@ -34,5 +34,6 @@ A full list of changes is below:
     - Allow a different default frequency and band for each VFO
     - RIT display simplified. I found the full frequency display cluttered. Now RIT is displayed merely as a 
       +- offset from main frequency and sisplayed in Hz.
+    - Vers. 1.3 July 2022 fixed a bug, whereby the simplified RIT display affected the RX output clock. Now fixed in this version.
     
     - All sections of code added or amended by G4USI are commented with a series of +++++++++++++++++++++++++++      
