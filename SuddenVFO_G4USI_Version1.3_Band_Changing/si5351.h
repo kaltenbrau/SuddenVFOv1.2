@@ -30,7 +30,10 @@
 #define SI5351_H_
 
 #include "Arduino.h"
-#include "i2c_t3.h"
+//************************* M0UAW 28-6-2023
+//#include "i2c_t3.h"
+#include "Wire.h"
+// End of mods, changed to Wire.h for Teensy 4
 #include <stdint.h>
 
 /* Define definitions */
