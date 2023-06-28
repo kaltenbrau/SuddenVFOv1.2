@@ -308,7 +308,10 @@ ILI9341_t3 tft = ILI9341_t3(TFT_CS, TFT_DC);
 
 // Modified version of etherkit for Teensy, included in distrbution
 #include "si5351.h"
-#include <i2c_t3.h>
+//********************** M0UAW 28-6-2023
+//#include <i2c_t3.h>
+#include <Wire.h>
+// End of changes.
 
 // Instantiate a si5351 object
 Si5351 si5351;
