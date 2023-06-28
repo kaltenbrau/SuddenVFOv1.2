@@ -499,10 +499,14 @@ void display_update_vfo() {
 
   // ------ variables used for vfo updates etc.
   String freqt = String(u.vfo_A_value);  // Text frquency convertrd
-  char F100m, F10m, Fmega, F100k, F10k, F1k, F100, F10, F1; //EachdDigit for VFO A
-  char f100m, f10m, fmega, f100k, f10k, f1k, f100, f10, f1; //EachdDigit for VFO B
-  int freqMulti;
-  int freqlength;
+   //**************************** M0UAW ******************************************
+  //char F100m, F10m, Fmega, F100k, F10k, F1k, F100, F10, F1; //EachdDigit for VFO A
+  //char f100m, f10m, fmega, f100k, f10k, f1k, f100, f10, f1; //EachdDigit for VFO B
+  //int freqMulti;
+   char F100m=0, F10m=0, Fmega=0, F100k=0, F10k=0, F1k=0, F100=0, F10=0, F1=0; //EachdDigit for VFO A
+   char f100m=0, f10m=0, fmega=0, f100k=0, f10k=0, f1k=0, f100=0, f10=0, f1=0; //EachdDigit for VFO B
+   int freqlength;
+   // End of changes by M0UAW
 
   // clear frequency text area just incase there is something there!
   //if (((flag.vfo_A_active == true) && (flag.freq_Changed = true))  || (flag.vfo_A_B_changed == true))//ORIGINAL++++++++++++++++++++++
