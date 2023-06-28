@@ -1,3 +1,12 @@
+PJRC.com announced the Teensy 3.2 used in this project is now obsolete, this is my modified version of the code to allow use of the Teensy 4 instead.
+The Teensy 4 is a drop in replacement for the GQRP Sudden VFO project, it will not work without extra hardware for other of Kevin Wheatley's
+projects that use the DAC out for raised cosine TX envelope shaping as the chip does not have a DAC output.
+
+All code changes made by M0UAW, Clint, are demarcated by comments with the original code and my callsign/date of changes
+*DO NOT REGARD THIS CODE AS FINAL, COMPLETE OR TO HAVE ANY GUARANTEES, IT IS EXPERIMENTAL AND IT IS UP TO YOU TO TEST*
+
+
+Original project text:
 # SuddenVFO - now at v1.3
 Amendments to the GQRP Club Sudden VFO to allow multiple band switching and relay activation for band filters.
 
