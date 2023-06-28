@@ -25,7 +25,10 @@
 #include <stdint.h>
 
 #include "Arduino.h"
-#include "i2c_t3.h"
+//********************** M0UAW 28-6-2023
+//#include "i2c_t3.h"
+#include "Wire.h"
+// End of changes
 #include "si5351.h"
 
 
