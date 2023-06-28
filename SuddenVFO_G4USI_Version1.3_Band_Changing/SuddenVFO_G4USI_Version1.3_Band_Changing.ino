@@ -3,6 +3,9 @@
    Copyright (c) 2020  M0KHZ - Kevin Wheatley
 
    Amended by Daimon Tilley, G4USI to provide multiple band switching vers1.2 - June 2022
+
+   Amended again, this time for Teensy 4 compatibility since the Teensy 3.2 is now obsolete.
+   M0UAW, 28th June 2023
    
    Changes made by G4USI:
     
